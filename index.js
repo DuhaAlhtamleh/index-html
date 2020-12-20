@@ -8,6 +8,7 @@ function welcome () {
     user = prompt("What is your name?");
     alert("Hi " + user)
     confirm("Please press a button")
+    }
 }
 
 welcome();
@@ -27,10 +28,10 @@ let showCars = function() {
   let result = "";
 
   for(let i = 0; i < total; i++) {
-    result = result + '<p>car number #' + i + " " + car + '</p>'
+    result = result + '<h4>car number #' + i + " " + car +'</h4>'
   }
-}
+  return result;
 }
 
 howMany();
-showCars();
+
